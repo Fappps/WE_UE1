@@ -1,0 +1,35 @@
+<html>
+	<title>options page</title>
+	<head>
+		<link rel="stylesheet" href="styles\styles.css">
+	</head>
+	<body>
+		<header>
+			Header+navBar placeholder
+		</header>
+
+		<div class="container">
+			<h1>Passwort ändern</h1>
+			
+			<form action="overview.html" method="post">
+				<div class="content_text">Altes Passowort:</div>
+				<div class="content_textfield"><input type="password" name="altespw" placeholder="Altes Passowort" required></div>
+				
+				<div class="content_text">Neues Passowort:</div>
+				<div class="content_textfield"><input type="password" name="neuespw1" placeholder="Neues Passowort" required></div>
+				
+				<div class="content_text">Neues Passowort wiederholen:</div>
+				<div class="content_textfield"><input pattern="(?=.{8,12})(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*"" type="password" name="neuespw2" placeholder="Neues Passowort wiederholen" required></div>
+				
+				<div class="content_submit">
+					<input type="submit" value="Änderung Speichern">
+				</div>
+			</form> 
+			
+			
+		</div>
+		<footer>
+			&copy; 2018 BIG Smart Production
+		</footer>
+	</body>
+</html>

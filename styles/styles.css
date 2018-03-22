@@ -1,0 +1,88 @@
+header {
+	text-align: center;
+	background-color:white;
+	height:70px;
+}
+
+body {
+    background-color: rgb(221,225,237);
+	font-family: "Arial";
+	margin:0px;
+}
+
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 20px;
+   width: 100%;
+   text-align: center;
+   color: rgb(86,87,90);
+}
+
+.container {
+	position: relative;
+    left: 17.5%;
+	max-width:65%;
+	margin-top:65px;
+}
+
+h1 {
+	font-size: 28px;
+}
+
+p {
+	
+}
+
+.content_text{
+	float:left;
+	width: 50%;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin: 0 0;
+}
+
+.content_textfield{
+	float:right;
+	width: 50%;
+}
+
+
+input[type=password] {
+    width: 100%;
+	font-size: 14px;
+    padding: 7px 5px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+	background: linear-gradient(to bottom, rgb(203,203,203), rgb(153,153,153));
+	width:50%;
+    padding: 7px 5px;
+    margin-top: 6px;
+    margin-left: 25%;
+	margin-right:25%;
+    border: 1px solid rgb(153,153,153);
+    border-radius: 4px;
+}
+@media (max-width:399px) {
+.content_text{
+	width: 100%;
+	padding-bottom: 0px;
+}
+.content_textfield{
+	float:right;
+	width: 100%;
+}
+input[type=submit] {
+	width:100%;
+	margin-left: 0;
+	margin-right:0;
+}
+
+
+}
