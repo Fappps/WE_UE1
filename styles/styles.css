@@ -5,7 +5,8 @@ header {
 }
 
 body {
-    background-color: rgb(221,225,237);
+	background: linear-gradient(#F0F2F5,#D3D8E8);
+	background-repeat: no-repeat;
 	font-family: "Arial";
 	margin:0px;
 }
@@ -17,6 +18,14 @@ footer {
    width: 100%;
    text-align: center;
    color: rgb(86,87,90);
+}
+
+
+a{
+ 	border-radius: 5px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
 }
 
 .container {
@@ -60,29 +69,111 @@ input[type=password] {
 }
 
 input[type=submit] {
-	background: linear-gradient(to bottom, rgb(203,203,203), rgb(153,153,153));
+	color:#4E4E4E;
+	background: linear-gradient(#CCCCCC ,#9A9A9A);
 	width:50%;
-    padding: 7px 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 6px;
     margin-left: 25%;
 	margin-right:25%;
     border: 1px solid rgb(153,153,153);
     border-radius: 4px;
 }
+
 @media (max-width:399px) {
-.content_text{
-	width: 100%;
-	padding-bottom: 0px;
-}
-.content_textfield{
-	float:right;
-	width: 100%;
-}
-input[type=submit] {
-	width:100%;
-	margin-left: 0;
-	margin-right:0;
+	.content_text{
+		width: 100%;
+		padding-bottom: 0px;
+	}
+	.content_textfield{
+		float:right;
+		width: 100%;
+	}
+	input[type=submit] {
+		width:100%;
+		margin-left: 0;
+		margin-right:0;
+	}
+
+
 }
 
+
+.navigation {
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;  
+    background: linear-gradient(#FFD843,#FF9A13);
+    
+}
+
+.logo {
+    float: left;
+    color: black;
+	font-size:30px;
+	font-weight: bold;
+    align-items: center;
+}
+
+.logo img{
+	padding-right:10px
+}
+
+.logo div{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+	display:flex;
+    float: right;
+    color: white;
+    padding-top:5px;
+}
+
+.menu div{
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    padding-right:2px;
+}
+
+.menu a{
+	color:white;
+    background: linear-gradient(#1980AD,#27558B);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+.login{
+	padding:2%;
+	padding-left:20%;
+	padding-right:20%;
+}
+
+.login div{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom:10px;
+    align-items: center;
+	font-weight: bold;
+}
+
+.login input{
+ 	border-radius: 5px;
+	width:50%;
+}
+
+.login h1{
+	font-size:25px;
+}
+
+@media (max-width:629px) {
+	
 
 }
