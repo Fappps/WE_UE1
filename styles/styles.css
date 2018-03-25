@@ -1,5 +1,4 @@
 html{
-
 	min-height: 100%;
 }
 
@@ -69,14 +68,14 @@ p {}
 	order: 2;
 }
 
-.title {
+.top {
   display: flex;
   align-items: flex-end;
 }
 
-.title h1 {}
+.top h2 {}
 
-.title h3 {
+.top h3 {
   flex: 1;
   text-align: right;
 }
@@ -90,12 +89,13 @@ p {}
 .field {
   flex: 1;
   margin-right: 10px;
+	margin-bottom: 20px;
   min-width: 150px;
 }
 
-.field h3 {
-  margin: 0;
+.field label {
   font-size: 14px;
+	font-weight: bold;
 }
 
 .field h4 {
@@ -250,7 +250,7 @@ p {}
   }
   .graph {
     position: relative;
-    width: 723px;
+    /*width: 723px;*/
     margin: 5px;
     border: 1px solid;
     border-color: rgb(204, 204, 204);
@@ -258,7 +258,7 @@ p {}
 }
 
 @media (min-width: 768px) and (max-width: 1079px) {
-  .title h1 {
+  .top h2 {
     flex: 1;
   }
   .graph {
@@ -286,11 +286,11 @@ p {}
   .arrows {
     display: none;
   }
-  .title {}
-  .title h1 {
+  .top {}
+  .top h2 {
     font-size: 18px;
   }
-  .title h3 {
+  .top h3 {
     font-size: 16px;
   }
   .pictures {

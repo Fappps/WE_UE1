@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 
 <head>
   <meta charset="utf-8" />
@@ -25,8 +25,8 @@
 
     <div class="right">
       <div class="connections">
-        <div class="title">
-          <h1>Verf&uuml;gbare Verbindungen</h1>
+        <div class="top">
+          <h2>Verf&uuml;gbare Verbindungen</h2>
         </div>
         <div class="available-connections">
           <div class="component arrow">
@@ -36,8 +36,8 @@
         </div>
       </div>
       <div class="elements">
-        <div class="title">
-          <h1>Verf&uuml;gbare Elemente</h1>
+        <div class="top">
+          <h2>Verf&uuml;gbare Elemente</h2>
         </div>
         <div class="available-elements">
           <div class="component">
@@ -73,8 +73,8 @@
 
     </div>
     <div class="left">
-      <div class="title">
-        <h1>Produktionskette</h1>
+      <div class="top">
+        <h2>Produktionskette</h2>
         <h3>8 Elemente - 9 Pfeile - 0 Produkte</h3>
       </div>
       <div class="graph">
@@ -161,7 +161,7 @@
       </div>
       <div class="attributes">
         <div class="field">
-          <h3>3D-Drucker</h3>
+          <label for="printer">3D-Drucker</label>
           <h4>(Zustand)</h4>
           <form action="/action_page.php">
             <select id="printer" name="printer">
@@ -172,45 +172,45 @@
           </form>
         </div>
         <div class="field">
-          <h3>Maschine</h3>
+          <label for="machine">Maschine</label>
           <h4>(Temperatur)</h4>
           <form action="/action_page.php">
             <input type="text" id="machine" name="machine" placeholder="">
           </form>
         </div>
         <div class="field">
-          <h3>Tempor&auml;res Lager</h3>
+          <label for="storage">Tempor&auml;res Lager</label>
           <h4>(Anzahl)</h4>
           <form action="/action_page.php">
             <input type="text" id="storage" name="storage" placeholder="">
           </form>
         </div>
         <div class="field">
-          <h3>Endlager</h3>
+          <label for="end_storage">Endlager</label>
           <h4>(Anzahl)</h4>
           <form action="/action_page.php">
             <input type="text" id="end_storage" name="end_storage" placeholder="">
           </form>
         </div>
         <div class="field">
-          <h3>M&uuml;lllager</h3>
+          <label for="trash_storage">M&uuml;lllager</label>
           <h4>(Anzahl)</h4>
           <form action="/action_page.php">
             <input type="text" id="trash_storage" name="trash_storage" placeholder="">
           </form>
         </div>
         <div class="field">
-          <h3>F&ouml;rderband</h3>
+          <label for="conveyor">F&ouml;rderband</label>
           <h4>(Ein/Aus)</h4>
           <form action="/action_page.php">
-            <input type="checkbox" name="conveyor" value="conveyor">
+            <input type="checkbox" id="conveyor" name="conveyor" value="conveyor">
           </form>
         </div>
         <div class="field">
-          <h3>Intelligentes F&ouml;rderband</h3>
+          <label for="intelligent_conveyor">F&ouml;rderband</label>
           <h4>(Ein/Aus)</h4>
           <form action="/action_page.php">
-            <input type="checkbox" name="intelligent_conveyor" value="intelligent_conveyor">
+            <input type="checkbox" id="intelligent_conveyor" name="intelligent_conveyor" value="intelligent_conveyor">
           </form>
         </div>
         <div class="field">
