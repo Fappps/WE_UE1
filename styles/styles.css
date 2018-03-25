@@ -116,64 +116,79 @@ p {
 }
 
 @media (min-width: 768px) {
-
+	.main{
+			display: flex;
+			width:95%;
+	}
+	.title h1{
+		flex: 1;
+	}
 }
 
 @media (max-width: 767px){
-	/*
-	.graph{
-		display: none;
-	}
-	.picture{
-		position: static;
-		flex:1;
-		display: flex;
-	}
-	.picture h3, .picture h4, .picture p{
-		visibility: visible;
-		flex: 1;
-	}
-	.pictures{
-		display: flex;
-		flex-wrap: wrap;
-	}
 	.main{
-		flex-direction: column;
 	}
 	.left{
-		flex: 1;
-		border-right: none;
-	}*/
-
-	.main{
-		/*flex-wrap: wrap;*/
-		flex-direction: column;
-	}
-	.title{
-	}
-	.title h1{
-		font-size: 18px;
-		flex: 0;
-	}
-	.title h3{
-		font-size: 16px;
-		flex:2;
-	}
-
-	.left{
+		padding: 5px;
 	}
 	.right{
 	}
 	.graph{
 		display: none;
 	}
+	.title{
+	}
+	.title h1{
+		font-size: 18px;
+	}
+	.title h3{
+		font-size: 16px;
+	}
+	.pictures{
+		display: flex;
+		flex-wrap: wrap;
+	}
 	.picture{
 		position: static;
-		display: none;
-		/*
 		flex:1;
-		display: flex;*/
+		display: flex;
+		-webkit-box-shadow: 0px 0px 10px 1px rgba(136,136,136,1);
+		-moz-box-shadow: 0px 0px 10px 1px rgba(136,136,136,1);
+		box-shadow: 0px 0px 10px 1px rgba(136,136,136,1);
+		border-radius: 5px;
+		margin:10px;
+		min-width: 300px;
 	}
+	.picture img{
+		width: 60;
+		height: 80;
+		padding: 20px;
+	}
+	.picture_attributes{
+		display:flex;
+		background-color: white;
+		flex-direction: column;
+		padding: 10px;
+		flex: 2.5;
+		font-size: 15px;
+	}
+	.picture h3{
+		visibility: visible;
+		padding: 0px;
+		margin: 0px;
+		font-weight: normal;
+	}
+	.picture h4{
+		visibility: visible;
+		margin: 5px 0px 0px 0px;
+		font-weight: normal;
+	}
+	.picture p{
+		visibility: visible;
+		margin: 0px;
+	}
+
+
 
 
 }
@@ -183,22 +198,20 @@ p {
 	justify-content: center;
 }
 .main{
-	display: flex;
-	width:95%;
 }
 
 .left{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	padding: 20px;
+	padding: 15px;
 }
 
 .right{
 	display: flex;
 	flex-direction: column;
 	flex: 1;
-	padding: 20px;
+	padding: 15px;
 }
 
 .title{
@@ -207,7 +220,6 @@ p {
 }
 
 .title h1{
-	flex: 1;
 }
 
 .title h3{
@@ -245,6 +257,10 @@ p {
 .component{
 	flex:1;
 }
+
+
+
+
 
 
 
