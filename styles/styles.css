@@ -50,7 +50,7 @@ p {
 .left{
 	display: flex;
 	flex-direction: column;
-	flex: 1;
+	flex: 1.5;
 	padding: 15px;
 }
 
@@ -125,6 +125,39 @@ p {
 }
 .component{
 	flex:1;
+	display: flex;
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(136,136,136,1);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(136,136,136,1);
+	box-shadow: 0px 0px 10px 1px rgba(136,136,136,1);
+	border-radius: 5px;
+	margin:10px;
+	min-width: 250px;
+	max-width: 250px;
+}
+/*
+.component:nth-last-child(1) {
+    max-width: 50%;
+}*/
+
+.component img{
+	width: 60;
+	height: 80;
+	padding: 20px;
+}
+.arrow img{
+	width: 60;
+	height: 20;
+	padding: 20px;
+}
+
+.component h3{
+	background-color: white;
+	flex: 2;
+	font-size: 18px;
+	padding: 10px;
+	margin: 0px;
+	font-weight: normal;
+	border-radius: 0 5px 5px 0;
 }
 
 
@@ -192,7 +225,6 @@ p {
 
 		.main{
 				display: flex;
-				width:95%;
 		}
 }
 
@@ -248,6 +280,7 @@ p {
 		padding: 10px;
 		flex: 2.5;
 		font-size: 15px;
+		border-radius: 0 5px 5px 0;
 	}
 	.picture h3{
 		visibility: visible;
