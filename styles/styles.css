@@ -255,6 +255,9 @@ p {}
     border: 1px solid;
     border-color: rgb(204, 204, 204);
   }
+	.picture img{
+		cursor: move;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1079px) {
@@ -429,7 +432,7 @@ input[type=submit] {
   padding-top: 5px;
 }
 
-.menu div, .field div {
+.menu div{
   display: flex;
   text-align: center;
   text-decoration: none;
