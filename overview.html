@@ -10,7 +10,6 @@
 
 <body>
   <header>
-
     <div class=navigation>
       <div class=logo>
         <div><img src="images/big-logo-small.png" alt="BIG Smart Production Logo"> BIG Smart Production</div>
@@ -22,7 +21,7 @@
     </div>
   </header>
   <div class="main">
-
+    <a href="#hauptinhalt" style="visibility:hidden" alt="Click me for Hauptinhalt"></a>
     <div class="right">
       <div class="connections">
         <div class="top">
@@ -74,7 +73,7 @@
     </div>
     <div class="left">
       <div class="top">
-        <h2>Produktionskette</h2>
+        <h2 id="hauptinhalt">Produktionskette</h2>
         <h3>8 Elemente - 9 Pfeile - 0 Produkte</h3>
       </div>
       <div class="graph">
@@ -164,53 +163,53 @@
           <label for="printer">3D-Drucker</label>
           <h4>(Zustand)</h4>
           <form action="/action_page.php">
-            <select id="printer" name="printer">
-                <option value="partly">Teilweise fertig</option>
-                <option value="canada">Unfertig</option>
-                <option value="usa">Fertig</option>
+            <select id="printer" name="printer" alt="select printer">
+                <option value="partly done" alt="party done">Teilweise fertig</option>
+                <option value="not done" alt="not done">Unfertig</option>
+                <option value="done" alt="done">Fertig</option>
               </select>
           </form>
         </div>
         <div class="field">
-          <label for="machine">Maschine</label>
+          <label for="machine" alt="machine">Maschine</label>
           <h4>(Temperatur)</h4>
           <form action="/action_page.php">
-            <input type="text" id="machine" name="machine" placeholder="">
+            <input type="text" id="machine" name="machine" alt="Enter Temperatur for Machine">
           </form>
         </div>
         <div class="field">
           <label for="storage">Tempor&auml;res Lager</label>
           <h4>(Anzahl)</h4>
           <form action="/action_page.php">
-            <input type="text" id="storage" name="storage" placeholder="">
+            <input type="text" id="storage" name="storage" alt="Enter Amount for Storage">
           </form>
         </div>
         <div class="field">
           <label for="end_storage">Endlager</label>
           <h4>(Anzahl)</h4>
           <form action="/action_page.php">
-            <input type="text" id="end_storage" name="end_storage" placeholder="">
+            <input type="text" id="end_storage" name="end_storage" alt="Enter Amount for Endstorage">
           </form>
         </div>
         <div class="field">
           <label for="trash_storage">M&uuml;lllager</label>
           <h4>(Anzahl)</h4>
           <form action="/action_page.php">
-            <input type="text" id="trash_storage" name="trash_storage" placeholder="">
+            <input type="text" id="trash_storage" name="trash_storage" alt="Enter Amount for Trashstorage">
           </form>
         </div>
         <div class="field">
           <label for="conveyor">F&ouml;rderband</label>
           <h4>(Ein/Aus)</h4>
           <form action="/action_page.php">
-            <input type="checkbox" id="conveyor" name="conveyor" value="conveyor">
+            <input type="checkbox" id="conveyor" name="conveyor" value="conveyor" alt="conveyor on or off">
           </form>
         </div>
         <div class="field">
           <label for="intelligent_conveyor">F&ouml;rderband</label>
           <h4>(Ein/Aus)</h4>
           <form action="/action_page.php">
-            <input type="checkbox" id="intelligent_conveyor" name="intelligent_conveyor" value="intelligent_conveyor">
+            <input type="checkbox" id="intelligent_conveyor" name="intelligent_conveyor" value="intelligent_conveyor" alt="intelligentconveyor on or off">
           </form>
         </div>
         <div class="field">
