@@ -362,7 +362,7 @@ p {}
 }
 
 input[type=password] {
-  width: 100%;
+  width: 95%;
   font-size: 14px;
   padding: 7px 5px;
   margin: 6px 0;
@@ -416,12 +416,6 @@ input[type=submit] {
 	padding-left: 0;
 	padding-right: 0;
   }
-}
-
-@media (min-width:400px){
-	.container {
-		
-	}
 }
 
 .navigation {
