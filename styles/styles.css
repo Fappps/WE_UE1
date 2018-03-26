@@ -371,6 +371,15 @@ input[type=password] {
   border-radius: 4px;
 }
 
+input[type=text] {
+  width: 100%;
+  font-size: 14px;
+  padding: 7px 5px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 input[type=submit] {
   color: #4E4E4E;
   background: linear-gradient(#CCCCCC, #9A9A9A);
