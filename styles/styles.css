@@ -283,6 +283,10 @@ p {}
     border-top: 1px solid;
     border-color: rgb(204, 204, 204);
   }
+	.main{
+		margin: auto;
+		max-width: 800px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -299,6 +303,7 @@ p {}
   }
   .top h3 {
     font-size: 16px;
+		font-weight: none;
   }
   .pictures {
     display: flex;
