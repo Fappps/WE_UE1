@@ -7,6 +7,7 @@ header {
   text-align: center;
   /*background-color:white;*/
   min-height: 70px;
+	z-index:1;
 }
 
 body {
@@ -48,6 +49,7 @@ p {}
 /*Overview Elements:*/
 
 .main {
+	z-index:0;
   padding: 15px;
 }
 
@@ -461,10 +463,13 @@ input[type=submit] {
   padding-top: 5px;
 }
 
-.menu div{
+.bigmenu{
   display: flex;
   text-align: center;
   text-decoration: none;
+}
+
+.menu div{
   padding-right: 2px;
 }
 
@@ -475,6 +480,10 @@ input[type=submit] {
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.smallmenu{
+	display:none;
 }
 
 .login {
@@ -523,5 +532,51 @@ input[type=submit] {
 	}
 }
 
+@media (max-width:629px) {
+	#burger{
+		display:block;
+		overflow:hidden;
+		color: white;
+		width:25px;
+		height:20px;
+		background: linear-gradient(#1980AD, #27558B);
+		padding:10px;
+		border-radius: 3px;
+	}
+	
+	
+	.smallmenu{
+		display: block;
+		float: right;
+		overflow:hidden;
+		height:30px
+	}
+	
+	.smallmenu span{
+		display: block;
+		width: 15px;
+		height: 3px;
+		margin-bottom: 3px;
+		position: relative;
+		
+		background: white;
+		border-radius: 3px;
+	}
+	
+	.smallmenu a{
+		color: white;
+		background: linear-gradient(#1980AD, #27558B);
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	
+	.smallmenu:hover {
+		overflow:visible;
+	}
+	
+	.bigmenu{
+		display:none;
+	}
 }
-@media (max-width:629px) {}
