@@ -7,7 +7,6 @@ header {
   text-align: center;
   /*background-color:white;*/
   min-height: 70px;
-	z-index:1;
 }
 
 body {
@@ -49,8 +48,7 @@ p {}
 /*Overview Elements:*/
 
 .main {
-	z-index:0;
-  padding: 15px;
+	padding: 15px;
 }
 
 .left {
@@ -533,29 +531,31 @@ input[type=submit] {
 }
 
 @media (max-width:629px) {
-	#burger{
-		display:block;
-		color: white;
-		width:25px;
-		height:20px;
-		background: linear-gradient(#1980AD, #27558B);
-		padding:10px 4px 7px 14px;
-		border-radius: 5px;
-	}
-	
-	
 	.smallmenu{
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
 		overflow:hidden;
-		height:35px;
+		height:40px;
 		margin-left:auto; 
 		margin-right:0;
 	}
 	
 	.smallmenu div{
 		padding-bottom:5px;
+	}
+	
+	#burger{
+		display:block;
+		color: white;
+		width:25px;
+		height:20px;
+		background: linear-gradient(#1980AD, #27558B);
+		padding:12px 4px 10px 14px;
+		border-radius: 5px;
+	}
+	
+	#hovermenu{
 	}
 	
 	.smallmenu span{
@@ -580,6 +580,7 @@ input[type=submit] {
 	
 	.smallmenu:hover {
 		overflow:visible;
+		z-index:100;
 	}
 	
 	.bigmenu{
