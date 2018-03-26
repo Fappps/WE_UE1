@@ -75,6 +75,8 @@ p {}
 .top h2 {}
 
 .top h3 {
+	font-size: 15px;
+	color: rgb(119,119,119);
   flex: 1;
   text-align: right;
 }
