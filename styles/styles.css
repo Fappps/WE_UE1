@@ -407,7 +407,7 @@ input[type=submit] {
     margin-right: 0;
   }
   
-  .login input[type=submit]{
+  .login input{
 	  width:100%;
   }
   
@@ -501,4 +501,8 @@ input[type=submit] {
 	}
 
 }
-@media (max-width:629px) {}
+@media (max-width:399px) {
+  .login input{
+	  width:100%;
+  }
+}
