@@ -278,10 +278,6 @@ p {}
     border-top: 1px solid;
     border-color: rgb(204, 204, 204);
   }
-	.main{
-		margin: auto;
-		max-width: 800px;
-	}
 }
 
 @media (max-width: 767px) {
@@ -411,26 +407,17 @@ input[type=submit] {
     margin-left: 0;
     margin-right: 0;
   }
-
-  .login input{
+  
+  .login input[type=submit]{
 	  width:100%;
   }
-
+  
   .login{
 	padding-left: 0;
 	padding-right: 0;
   }
 }
 
-<<<<<<< HEAD
-=======
-@media (min-width:400px){
-	.container {
-
-	}
-}
-
->>>>>>> 3d76d9e4abbcfee1e145dcf61ef762c68dbb1c27
 .navigation {
   margin: 0;
   padding: 10px;
@@ -509,19 +496,4 @@ input[type=submit] {
 	}
 
 }
-@media (max-width:399px) {
-  .login input{
-	  width:100%;
-  }
-  .login input[type=submit] {
-	color: #4E4E4E;
-	background: linear-gradient(#CCCCCC, #9A9A9A);
-	width: 100%;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin:0;
-	border: 1px solid rgb(153, 153, 153);
-	border-radius: 4px;
-	cursor: pointer;
-  }
-}
+@media (max-width:629px) {}
