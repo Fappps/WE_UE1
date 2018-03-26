@@ -23,7 +23,7 @@ footer {
   width: 100%;
   text-align: center;
   color: rgb(86, 87, 90);
-	margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 a {
@@ -36,6 +36,7 @@ a {
 .container {
   margin:auto;
   max-width:1200px;
+  padding: 2%;
 }
 
 h1 {
