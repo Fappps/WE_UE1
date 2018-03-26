@@ -34,10 +34,8 @@ a {
 }
 
 .container {
-  position: relative;
-  left: 17.5%;
-  max-width: 65%;
-  margin-top: 65px;
+  margin:auto;
+  max-width:1200px;
 }
 
 h1 {
@@ -417,6 +415,12 @@ input[type=submit] {
 	padding-left: 0;
 	padding-right: 0;
   }
+}
+
+@media (min-width:400px){
+	.container {
+		
+	}
 }
 
 .navigation {
