@@ -278,6 +278,10 @@ p {}
     border-top: 1px solid;
     border-color: rgb(204, 204, 204);
   }
+	.main{
+		margin: auto;
+		max-width: 800px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -407,11 +411,11 @@ input[type=submit] {
     margin-left: 0;
     margin-right: 0;
   }
-  
+
   .login input{
 	  width:100%;
   }
-  
+
   .login{
 	padding-left: 0;
 	padding-right: 0;
@@ -420,7 +424,7 @@ input[type=submit] {
 
 @media (min-width:400px){
 	.container {
-		
+
 	}
 }
 
