@@ -409,7 +409,7 @@ input[type=submit] {
     margin-right: 0;
   }
   
-  .login input{
+  .login input[type=submit]{
 	  width:100%;
   }
   
@@ -468,8 +468,8 @@ input[type=submit] {
 
 .login {
   padding: 2%;
-  padding-left: 20%;
-  padding-right: 20%;
+  max-width:1000px;
+  margin:auto;
 }
 
 .login div {
