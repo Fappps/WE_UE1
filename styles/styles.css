@@ -408,6 +408,15 @@ input[type=submit] {
     margin-left: 0;
     margin-right: 0;
   }
+  
+  .login input{
+	  width:100%;
+  }
+  
+  .login{
+	padding-left: 0;
+	padding-right: 0;
+  }
 }
 
 .navigation {
