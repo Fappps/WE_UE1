@@ -43,7 +43,7 @@
 				<div class="content_textfield"><input type="password" name="altespw" placeholder="Altes Passwort" required></div>
 				
 				<div class="content_text">Neues Passwort:</div>
-				<div class="content_textfield"><input type="password" name="neuespw1" placeholder="Neues Passwort" required></div>
+				<div class="content_textfield"><input pattern="(?=.{8,12})(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*" type="password" name="neuespw1" placeholder="Neues Passwort" required></div>
 				
 				<div class="content_text">Neues Passwort wiederholen:</div>
 				<div class="content_textfield"><input pattern="(?=.{8,12})(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*" type="password" name="neuespw2" placeholder="Neues Passwort wiederholen" required></div>
