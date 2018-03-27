@@ -518,6 +518,7 @@ input[type=submit] {
 		padding-left:2%;
 		padding-right:2%;
 	}
+}
 @media (max-width:399px) {
 	.login input{
 		width:100%;
@@ -598,16 +599,16 @@ input[type=submit] {
 	.bigmenu{
 		display:none;
 	}
+}
 
-	@media (max-width:540px) {
-		.logo{
-			width:50%;
-		}
-		.navigation{
-			height:70px;
-		}
-		.smallmenu{
-			padding-top: 10px;
-		}
+@media (max-width:540px) {
+	.logo{
+		width:50%;
+	}
+	.navigation{
+		height:70px;
+	}
+	.smallmenu{
+		padding-top: 10px;
 	}
 }
