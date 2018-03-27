@@ -434,8 +434,9 @@ input[type=submit] {
 .navigation {
   margin: 0;
   padding: 10px;
-  overflow: hidden;
+  min-height:50px;
   background: linear-gradient(#FFD843, #FF9A13);
+  z-index:100;
 }
 
 .logo {
