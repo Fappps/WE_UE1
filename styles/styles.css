@@ -294,6 +294,21 @@ p {}
 	}
 }
 
+#skip a{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+
+#skip a:focus{
+position:static;
+width:auto;
+height:auto;
+}
+
 @media screen and (max-width: 767px) {
   .left {
     padding: 5px;
@@ -518,7 +533,6 @@ input[type=submit] {
 		padding-left:2%;
 		padding-right:2%;
 	}
-}
 @media (max-width:399px) {
 	.login input{
 		width:100%;
@@ -577,6 +591,7 @@ input[type=submit] {
 		width: 15px;
 		height: 3px;
 		margin-bottom: 3px;
+		position: center;
 
 		background: white;
 		border-radius: 3px;
@@ -599,16 +614,16 @@ input[type=submit] {
 	.bigmenu{
 		display:none;
 	}
-}
 
-@media (max-width:540px) {
-	.logo{
-		width:50%;
-	}
-	.navigation{
-		height:70px;
-	}
-	.smallmenu{
-		padding-top: 10px;
+	@media (max-width:540px) {
+		.logo{
+			width:50%;
+		}
+		.navigation{
+			height:70px;
+		}
+		.smallmenu{
+			padding-top: 10px;
+		}
 	}
 }

@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 	<body>
+    <div id="skip"><a href="#maincontent">Skip to Main Content</a></div>
 		<header>
-		
 			<div class=navigation>
 				<div class=logo>
 					<div><img src="images/big-logo-small.png" alt="Logo">
@@ -36,24 +36,24 @@
 		</header>
 
 		<div class="container">
-			<h1>Passwort ändern</h1>
-			
+			<h1 id=maincontent>Passwort ändern</h1>
+
 			<form action="overview.html" method="post">
 				<div class="content_text">Altes Passwort:</div>
 				<div class="content_textfield"><input type="password" name="altespw" placeholder="Altes Passwort" required></div>
-				
+
 				<div class="content_text">Neues Passwort:</div>
 				<div class="content_textfield"><input pattern="(?=.{8,12})(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*" type="password" name="neuespw1" placeholder="Neues Passwort" required></div>
-				
+
 				<div class="content_text">Neues Passwort wiederholen:</div>
 				<div class="content_textfield"><input pattern="(?=.{8,12})(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*" type="password" name="neuespw2" placeholder="Neues Passwort wiederholen" required></div>
-				
+
 				<div class="content_submit">
 					<input type="submit" value="Änderung Speichern">
 				</div>
-			</form> 
-			
-			
+			</form>
+
+
 		</div>
 		<footer>
 			&copy; 2018 BIG Smart Production
